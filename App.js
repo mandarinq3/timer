@@ -38,9 +38,7 @@ const strim$=new Observable((observer) => {
         s=0;
         h++;
         setMin(0);
-        setHour(h);
-        
-        
+        setHour(h);   
       } 
     }
   },1000))
@@ -53,10 +51,6 @@ function subscribeToStrim(){
     next:(value)=>{setSec(value)},
   })
 }
-
-
-
-
 
 
 function startTime(){
